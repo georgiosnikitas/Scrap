@@ -12,7 +12,7 @@ public class HelloWorld {
         int y=14;
         result=x+y;
         
-        System.out.println(x+"+"+y+"="+HelloWorld.getResult());
+        System.out.println("v2. "+x+"+"+y+"="+HelloWorld.getResult());
         
     }
 
