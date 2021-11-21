@@ -12,6 +12,8 @@ public class App {
         } catch(Exception e) {
             System.out.println("... birthdate not defined, can't calculate age");
         }
+
+        System.out.println("Thanks for running this program");
         
     }
 }
