@@ -1,3 +1,4 @@
+package helloworld;
 
 import static org.junit.Assert.*;
 import java.time.LocalDate;
@@ -15,12 +16,12 @@ public class AppTest {
     @Test
     public void test_Age() {
         System.out.println("Testing person's age");
-        Integer int1=10;
+        Integer int1=12;
         try {
         int age = new Person("Clark", "Ken", LocalDate.of(2011,10,26)).getAge();
             assertEquals(Integer.valueOf(age), int1);
         } catch(Exception e) {
-            assertEquals(true, false);
+            assertTrue(false);
         }
     }
 

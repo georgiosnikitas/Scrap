@@ -1,10 +1,11 @@
+package helloworld;
 import java.time.*;
 
 public class Person {
 
-private String firstname;
-private String lastname;
-private LocalDate birthdate;
+private final String firstname;
+private final String lastname;
+private final LocalDate birthdate;
 
 public Person(String fname, String lname, LocalDate bdate) {
     this.firstname=fname;
