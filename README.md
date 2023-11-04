@@ -1,1 +1,1 @@
-OMG! - this is an awesome readme file
+OMG! - this is an awesome readme file ;)
